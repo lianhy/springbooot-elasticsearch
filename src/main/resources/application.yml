@@ -1,0 +1,13 @@
+spring:
+  data:
+    elasticsearch:
+      cluster-name: my-application
+      cluster-nodes: 192.168.100.64:9300
+
+server:
+  port: 8070
+
+logging:
+  level:
+    cn.lianhy: info
+  config: classpath:logback.xml
